@@ -1,0 +1,89 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-color: #d6d4db;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 3.8em;
+    font-size: 18px;
+}
+
+#container{
+    
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 20px;
+
+
+}
+
+.Application{
+    border : 2px solid black;
+    border-radius: 10px;
+    background: rgb(226, 125, 187);
+    padding :15px 20px;
+    color: indigo;
+}
+
+.Application p,
+.Application h1{
+    text-align: center;
+
+}
+
+.Application h2{
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.form label {
+    display: block;
+
+}
+
+.form input   {
+    width: 400px;
+    border-radius: 10px;
+ font-size: 18px;
+    padding: 20px;
+
+}
+
+.form textarea{
+    padding: 30px;
+}
+
+.form select{
+    font-size: 20px;
+    padding :20px
+   
+}
+
+.more label {
+    display: flex;
+}
+
+.more input{
+    width: 32px;
+
+}
+
+
+button{  
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+ background:rgba(255,0,0,0.3);;
+    color: rgb(255,255,255);
+    cursor: pointer;
+    font-size: 25px;
+
+
+}
